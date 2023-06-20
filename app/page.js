@@ -13,6 +13,9 @@ const DynamicProjectsSection = dynamic(() =>
 const DynamicContactSection = dynamic(() =>
   import("@/pages/homepage/contactSection")
 );
+const DynamicTechStackSection = dynamic(() =>
+  import("@/pages/homepage/techStackSection")
+);
 
 export default function Home() {
   return (
@@ -22,6 +25,7 @@ export default function Home() {
       <DynamicEducationSection />
       <DynamicProjectsSection />
       <DynamicContactSection />
+      <DynamicTechStackSection />
     </div>
   );
 }

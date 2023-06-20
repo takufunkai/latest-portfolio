@@ -16,7 +16,7 @@ export default function ContactSection() {
   ];
 
   return (
-    <Section title="Contact me">
+    <Section title="Contact me" id="contact">
       <h2 className="mb-1">Ezekiel Toh</h2>
       <h3 className="mb-4">
         <a href={`mailto:${EMAIL}`} className="flex items-center gap-2">

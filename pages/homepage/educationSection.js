@@ -1,5 +1,6 @@
 import Section from "@/components/section";
 import ExperienceItem from "@/components/experienceItem";
+import { JavaIcon } from "@/components/icons";
 
 export default function EducationSection() {
   const education = [
