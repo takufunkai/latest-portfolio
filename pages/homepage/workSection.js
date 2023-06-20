@@ -38,8 +38,8 @@ export default function WorkSection() {
 
   return (
     <Section title="Work Experiences">
-      {workExperience.map((item) => (
-        <ExperienceItem key={item.title} {...item} />
+      {workExperience.map((item, i) => (
+        <ExperienceItem key={i} {...item} />
       ))}
     </Section>
   );
