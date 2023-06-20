@@ -12,8 +12,8 @@ export default function WorkSection() {
       ),
       subtitle: "January 2023 - June 2023 | Frontend Engineer Intern",
       icons: [
-        <TbBrandNextjs className="icons" />,
-        <FaNodeJs className="icons" />,
+        <TbBrandNextjs key="nextjs" className="icons" />,
+        <FaNodeJs key="nodejs" className="icons" />,
       ],
     },
     {
