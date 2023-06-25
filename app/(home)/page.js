@@ -1,20 +1,20 @@
-import HeroSection from "@/pages/homepage/heroSection";
+import HeroSection from "./heroSection";
 import dynamic from "next/dynamic";
 
 const DynamicWorkSection = dynamic(() =>
-  import("@/pages/homepage/workSection")
+  import("./workSection")
 );
 const DynamicEducationSection = dynamic(() =>
-  import("@/pages/homepage/educationSection")
+  import("./educationSection")
 );
 const DynamicProjectsSection = dynamic(() =>
-  import("@/pages/homepage/projectsSection")
+  import("./projectsSection")
 );
 const DynamicContactSection = dynamic(() =>
-  import("@/pages/homepage/contactSection")
+  import("./contactSection")
 );
 const DynamicTechStackSection = dynamic(() =>
-  import("@/pages/homepage/techStackSection")
+  import("./techStackSection")
 );
 
 export default function Home() {

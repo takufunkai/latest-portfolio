@@ -6,7 +6,7 @@ export default function EducationSection() {
   const education = [
     {
       title: "National University of Singapore",
-      subtitle: "2020 - 2024 | BComp Computer Science",
+      subtitle: "2020 - 2024 | BComp Computer Science (4.16/5.00)",
       description: (
         <div>
           Teaching assistant
