@@ -28,9 +28,9 @@ export default function WorkSection() {
       ),
       subtitle: "January 2023 - June 2023 | Frontend Engineer Intern",
       points: [
-        'Built i18n translation service module, which is used across the various customer-facing platforms, reducing build times by more than 60% and improving page load speed by more than 30%.',
-        'Assisted migration of marketing website from in-house React library to NextJS, using specific rendering practices to improve site-wide performance and SEO score.',
-        'Assisted in building in-house Content Management System for marketing team to create new pages.'
+        "Reduced code compile and build time by 60% and increasing page load speed by 30% across 3 customer-facing platforms, by building an in-house i18n translation service module in NodeJS.",
+        "Assisted migration of marketing website from in-house React library to NextJS, using specific rendering practices to improve site-wide performance and SEO score by 10%.",
+        "Built and designed system in React for developers to build new components through StorybookJS for Content Management System, which is used by the marketing team to create new pages, reducing development time significantly.",
       ],
       icons: [
         <NextjsIcon key="nextjs" />,
@@ -47,11 +47,10 @@ export default function WorkSection() {
       subtitle:
         "May 2022 - July 2022, October 2022 - December 2022 | Software Engineer Intern",
       points: [
-        'Optimized job portal’s SEO and web vitals with all important landing pages having above 90% rating consistently, contributing to achieving the company’s all-time high of over 2,300 daily unique visitors.',
-        'Refactored frontend code-base written in NextJS to optimally leverage on server-side rendering, incremental static regeneration and static site generation to improve page speeds.',
-        'Migrated AWS EC2 servers and CI/CD pipeline to alternative cloud service provider, reducing costs by 80%.',
-        'Implemented caching in Django (Python) backend to improve response time.',
-        'Built Search backend using MeiliSearch, significantly improving the search results and response time of users making search requests on landing pages.',
+        "Improved server response to website by 80%, by optimizing SQL statements and Django (Python) logic, and implementing server-side cache in server scripts.",
+        "Improved development time by creating multiple one-click bash/Unix scripts to dockerize and deploy new microservices and serverless functions to AWS servers.",
+        "Reduce deployment costs by 80% by migrating AWS EC2 servers and CI/CD pipeline to alternative cloud service provider, Linode.",
+        "Improved search results and response times of website users by optimizing Search/Autocomplete module in MeiliSearch and Python by up to 10%",
       ],
       icons: [
         <NextjsIcon key="nextjs" />,
@@ -69,8 +68,8 @@ export default function WorkSection() {
       title: "ZDD Labs",
       subtitle: "October 2021 - March 2022 | Part-time Frontend Engineer",
       points: [
-        'Implemented new game features and improvements using React/NextJS, SCSS and Typescript.',
-        'Built Javascript module to replace third-party library, saving thousands of dollars per month.'
+        "Implemented new game features and improvements using React/NextJS, SCSS and Typescript.",
+        "Built Javascript module to replace third-party library, saving thousands of dollars per month.",
       ],
       icons: [
         <NextjsIcon key="nextjs" />,
@@ -89,8 +88,8 @@ export default function WorkSection() {
       ),
       subtitle: "May 2021 - July 2021 | Software Engineer Intern",
       points: [
-        'Created a report-generation system using Go and PostgreSQL, and developed the GUI for the system in React and Typescript. Replaces the need for manual work on Excel sheets, significantly reducing the man-hours and errors.',
-        'Rewrote and refactored 4 major back-end modules from Ruby on Rails to Go.',
+        "Created a report-generation system using Go and PostgreSQL, and developed the GUI for the system in React and Typescript. Replaces the need for manual work on Excel sheets, significantly reducing the man-hours and errors.",
+        "Rewrote and refactored 4 major back-end modules from Ruby on Rails to Go.",
       ],
       icons: [
         <ReactIcon key="react" />,

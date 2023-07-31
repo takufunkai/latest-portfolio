@@ -10,8 +10,8 @@ export default function EducationSection() {
       description: (
         <div>
           Teaching assistant
-          <p>CS2030S | Rating 4.6/5.0</p>
-          <p>CS2103T | Rating 4.1/5.0</p>
+          <p>CS2030S (Programming Methodology II in Java) | Rating 4.6/5.0</p>
+          <p>CS2103T (Software Engineering in Java) | Rating 4.1/5.0</p>
         </div>
       ),
     },
